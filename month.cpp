@@ -16,7 +16,7 @@ int main() {
     std::cin >> monthNum;
 
     // checks to make sure user imputed a number within range
-    if (monthNum > 1 || monthNum < 12) {
+    if (monthNum < 1 || monthNum > 12) {
         std::cout << "Error. " << monthNum << " does not represent a month.\n";
 
     } else {
